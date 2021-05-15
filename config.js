@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://duckwell.netlify.app',
   pathPrefix: '/',
   title: 'DuckWell',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'とあるフロントエンドエンジニアの人生を楽しく生きるブログ。',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Harry Duck',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '優れたUIとUXが好きなフロントエンドエンジニア。',
     contacts: {
       email: '',
       facebook: '#',
