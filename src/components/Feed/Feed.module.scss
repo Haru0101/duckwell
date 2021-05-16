@@ -9,6 +9,11 @@
       @include margin-bottom(.5);
     }
 
+    &-link-wrap {
+      display: block;
+      color: #000;
+    }
+
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
       @include line-height(1.5);
