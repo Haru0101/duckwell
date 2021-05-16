@@ -3,7 +3,7 @@ template: page
 title: Contact
 slug: contacts
 socialImage: /media/image-0.jpg
-draft: true
+draft: false
 ---
-私へのコンタクトはTwitterのDM、またはメールでお願いします。\
+私へのコンタクトはTwitterのDM、またはメールでお願いします。  
 それぞれのリンクについてはプロフィールのアイコンにてアクセスすることができます。
