@@ -3,7 +3,7 @@ template: page
 title: About
 slug: about
 socialImage: https://images.unsplash.com/photo-1484663548870-2aa675ba38fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWJvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
-draft: true
+draft: false
 ---
 # 自己紹介  
 - 名前：Harry Duck
@@ -29,6 +29,6 @@ draft: true
 
 そんな人達のために「楽しく働く方法を提供したい」、  
 ひいては「みんなが楽しく働ける社会にしたい」、  
-そういう思いでブログを開設しました。  
+そういう想いでブログを開設しました。  
 
-一度きりしかない人生
+このブログが誰かの役に立つよう、心から願っています。  
