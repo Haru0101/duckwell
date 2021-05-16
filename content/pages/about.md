@@ -3,7 +3,7 @@ template: page
 title: About
 slug: about
 socialImage: /media/image-1.jpg
-draft: false
+draft: true
 ---
 # 自己紹介  
 - 名前：Harry Duck
