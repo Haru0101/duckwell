@@ -13,8 +13,8 @@ const Feed = ({ edges }: Props) => (
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
-          <time className={styles['feed__item-meta-time']} dateTime={ new Date(edge.node.frontmatter.date).toLocaleDateString('en-US', { year: 'numeric', month: 'numeric', day: 'numeric', weekday:'short' })}>
-          { new Date(edge.node.frontmatter.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' })}
+          <time className={styles['feed__item-meta-time']} dateTime={ new Date(edge.node.frontmatter.date).toLocaleDateString({ year: 'numeric', month: 'numeric', day: 'numeric', weekday:'short' })}>
+          { new Date(edge.node.frontmatter.date).toLocaleDateString({ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }).split('/').join('.')}
           </time>
           <span className={styles['feed__item-meta-divider']} />
           <span className={styles['feed__item-meta-category']}>
