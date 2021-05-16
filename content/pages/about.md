@@ -1,13 +1,34 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/image-2.jpg"
+template: page
+title: About
+slug: about
+socialImage: https://images.unsplash.com/photo-1484663548870-2aa675ba38fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWJvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+draft: true
 ---
+# 自己紹介  
+- 名前：Harry Duck
+- 誕生：1997年生まれ
+- 出身：大分県
+- 職業：WEB系フロントエンドエンジニア
+- 学歴：地方国立大 学士（経済学）
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+# このブログの目的
+私はフロントエンドエンジニアとして、日々技術研鑽しています。  
+もちろん技術記事もZenn.devにて書いていますし、技術本も公開した経験があります。  
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+しかし、働く上で必要なのは技術力だけではありません。  
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+体の健康、そして心の健康も欠かせないものです。  
+私は自分のいろいろな経験を通して、自分の健康をコントロールする術を身に着けてきました。  
+そして今も、さらなる健康を目指して勉強中です。  
+おかげさまで毎日楽しく出勤し、働くことができています。  
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+でもこれは当たり前のことではありません。  
+私のまわりには「仕事に行くのが嫌だ」とか、「毎日生きていくのが苦痛だ」とか、  
+心や体が健康ではない人がたくさんいます。  
+
+そんな人達のために「楽しく働く方法を提供したい」、  
+ひいては「みんなが楽しく働ける社会にしたい」、  
+そういう思いでブログを開設しました。  
+
+一度きりしかない人生
