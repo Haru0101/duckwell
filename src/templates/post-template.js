@@ -37,12 +37,7 @@ export const query = graphql`
       }
       frontmatter {
         date
-        description
-        tags
         title
-        socialImage {
-          publicURL
-        }
       }
     }
   }
