@@ -60,7 +60,6 @@ const createPages = async ({ graphql, actions }) => {
   });
 
   // Feeds
-  await createTagsPages(graphql, actions);
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);
 };
