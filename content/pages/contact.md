@@ -1,7 +1,7 @@
 ---
 template: page
 title: Contact
-slug: contact
+slug: contact765
 socialImage: /media/image-0.jpg
 draft: false
 ---
