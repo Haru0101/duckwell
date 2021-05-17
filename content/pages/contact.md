@@ -5,5 +5,5 @@ slug: contact
 socialImage: /media/image-0.jpg
 draft: false
 ---
-私へのコンタクトはTwitterのDM、またはメールでお願いします。  
+お問い合わせはTwitterのDM、またはメールでお願いします。\
 それぞれのリンクについてはプロフィールのアイコンにてアクセスすることができます。
