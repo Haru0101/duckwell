@@ -16,7 +16,6 @@ const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle } = frontmatter;
-  const metaDescription = siteSubtitle;
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} >
