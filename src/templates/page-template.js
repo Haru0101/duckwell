@@ -20,7 +20,7 @@ const PageTemplate = ({ data }: Props) => {
   const { title: pageTitle } = frontmatter;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`}  >
+    <Layout title={`${pageTitle} - ${siteTitle}`} >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
