@@ -18,7 +18,7 @@ const PageTemplate = ({ data }: Props) => {
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
   const { title: pageTitle } = frontmatter;
-  const metaDescription = pageDescription || siteSubtitle;
+  const metaDescription = siteSubtitle;
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`}  >
