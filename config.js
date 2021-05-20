@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Harry Duck',
     photo: '/photo.jpg',
-    bio: '優れたUIとUXが好きなフロントエンドエンジニア。',
+    bio: 'ストレスなく楽しく働く人を一人でも増やしたいフロントエンドエンジニア。',
     contacts: {
       email: 'haruki.for.01@gmail.com',
       facebook: '',
