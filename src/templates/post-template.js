@@ -13,7 +13,7 @@ type Props = {
 };
 
 const PostTemplate = ({ data }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+  const { title: siteTitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle } = frontmatter;
 
