@@ -7,19 +7,15 @@ import styles from './Layout.module.scss';
 
 type Props = {
   children: ReactNode,
-  title: string,
-  description?: string,
-  socialImage?: string
+  title: string
 };
 
 const Layout = ({
   children,
-  title,
-  description,
-  socialImage = ''
+  title
 }: Props) => {
   const { author, url } = useSiteMetadata();
-  const metaImage = socialImage || author.photo;
+  const metaImage = author.photo;
   const metaImageUrl = url + metaImage;
 
   return (

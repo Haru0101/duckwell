@@ -2,7 +2,6 @@
 template: page
 title: About
 slug: about
-socialImage: /media/gutenberg.jpg
 draft: false
 ---
 ## 自己紹介

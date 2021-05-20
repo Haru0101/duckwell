@@ -17,12 +17,11 @@ const PageTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
-  const { title: pageTitle, description: pageDescription = '', socialImage } = frontmatter;
+  const { title: pageTitle } = frontmatter;
   const metaDescription = pageDescription || siteSubtitle;
-  const socialImageUrl = socialImage?.publicURL;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
+    <Layout title={`${pageTitle} - ${siteTitle}`}  >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
