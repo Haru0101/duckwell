@@ -22,18 +22,10 @@ describe('Post', () => {
       html: '<p>test</p>',
       fields: {
         slug: '/test',
-        categorySlug: '/test-category',
-        tagSlugs: [
-          '/test_0',
-          '/test_1'
-        ]
+        categorySlug: '/test-category'
       },
       frontmatter: {
         date: '2016-09-01',
-        tags: [
-          'test_0',
-          'test_1'
-        ],
         title: 'test'
       }
     }
