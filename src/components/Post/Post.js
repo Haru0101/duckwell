@@ -12,7 +12,7 @@ type Props = {
 
 const Post = ({ post }: Props) => {
   const { html } = post;
-  const { slug } = post.fields.slug;
+  const { slug } = post.fields;
   const { title } = post.frontmatter;
 
   return (
