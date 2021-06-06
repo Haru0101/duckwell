@@ -10,7 +10,7 @@ describe('Layout', () => {
   const props = {
     ...siteMetadata,
     children: 'test',
-    description: 'test',
+    // description: 'test',
     title: 'test'
   };
 
