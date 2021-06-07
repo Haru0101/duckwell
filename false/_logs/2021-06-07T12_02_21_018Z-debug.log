@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test',
+1 verbose cli   '--runInBand',
+1 verbose cli   '--no-cache'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.15.5
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle gatsby-starter-lumen@3.0.7~pretest: gatsby-starter-lumen@3.0.7
+6 info lifecycle gatsby-starter-lumen@3.0.7~test: gatsby-starter-lumen@3.0.7
+7 verbose lifecycle gatsby-starter-lumen@3.0.7~test: unsafe-perm in lifecycle true
+8 verbose lifecycle gatsby-starter-lumen@3.0.7~test: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/haruki/duckwell/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle gatsby-starter-lumen@3.0.7~test: CWD: /Users/haruki/duckwell
+10 silly lifecycle gatsby-starter-lumen@3.0.7~test: Args: [ '-c', 'jest --config ./jest/jest-config.js' ]
+11 silly lifecycle gatsby-starter-lumen@3.0.7~test: Returned: code: 1  signal: null
+12 info lifecycle gatsby-starter-lumen@3.0.7~test: Failed to exec test script
+13 verbose stack Error: gatsby-starter-lumen@3.0.7 test: `jest --config ./jest/jest-config.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid gatsby-starter-lumen@3.0.7
+15 verbose cwd /Users/haruki/duckwell
+16 verbose Darwin 20.5.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "test" "--runInBand" "--no-cache"
+18 verbose node v14.15.5
+19 verbose npm  v6.14.11
+20 error code ELIFECYCLE
+21 error errno 1
+22 error gatsby-starter-lumen@3.0.7 test: `jest --config ./jest/jest-config.js`
+22 error Exit status 1
+23 error Failed at the gatsby-starter-lumen@3.0.7 test script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
