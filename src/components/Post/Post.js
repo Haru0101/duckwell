@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
-import Comments from './Comments';
 import Content from './Content';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
