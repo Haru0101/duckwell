@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'とあるフロントエンドエンジニアの人生を楽しく生きるブログ。',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 8,
   googleAnalyticsId: 'UA-197096667-1',
   useKatex: false,
   menu: [
