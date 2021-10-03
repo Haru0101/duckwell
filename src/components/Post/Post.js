@@ -14,7 +14,6 @@ type Props = {
 
 const Post = ({ post }: Props) => {
   const { html } = post;
-  const { slug } = post.fields;
   const { title, date } = post.frontmatter;
 
   return (
@@ -30,9 +29,6 @@ const Post = ({ post }: Props) => {
         <Author />
       </div>
 
-      <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
-      </div>
     </div>
   );
 };
