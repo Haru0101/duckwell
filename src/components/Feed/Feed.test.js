@@ -13,7 +13,7 @@ describe('Feed', () => {
             categorySlug: '/test_0',
           },
           frontmatter: {
-            date: '2016-09-01',
+            date: '2016. 9. 1.',
             category: 'test_0',
             title: 'test_0'
           },
@@ -29,7 +29,7 @@ describe('Feed', () => {
             categorySlug: '/test_1',
           },
           frontmatter: {
-            date: '2016-09-01',
+            date: '2016. 9. 1.',
             category: 'test_1',
             title: 'test_1'
           },
