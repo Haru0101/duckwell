@@ -25,7 +25,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Harry Duck',
+    name: 'Haruki Okuda',
     photo: '/photo.jpg',
     bio: 'ストレスなく楽しく働く人を一人でも増やしたいフロントエンドエンジニア。',
     contacts: {

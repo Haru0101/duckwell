@@ -6,7 +6,7 @@ draft: false
 ---
 ## 自己紹介
 
-* ペンネーム：Harry Duck
+* 名前：Haruki Okuda
 * 誕生：1997年生まれ
 * 出身：大分県
 * 職業：WEB系フロントエンドエンジニア
